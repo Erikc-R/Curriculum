@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Erikc Rodriguez</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+<header id="barraSuperior" class="encabezado">
+     <div class="menu">
+      
+        <nav class="navbar">
+            <ul class="opciones" style="list-style-type: none;">
+                <li><a href="#sobre_mi">Sobre Mi</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#experiencia">Experiencia</a></li>
+                <li><a href="#contacto">contacto</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<div class="contenido" id="sobre_mi">
+ 
+    <h1 class="presentacion">ERIKC RODRIGUEZ</h1>
+        <h2 class="presentacionH2">TECNICO-MEDIO EN CONTABILIDAD Y PROGRAMADOR WEB</H2>
+        
+    <div class="cara">
+        <img class="yo" src="yo.jpg" alt="Foto_de_Erikc_Rodriguez">   
+        <div>
+            <h3 class="presentacionP">SOBRE MI</h3>
+                <p>Soy un joven de 17 años con una profunda pasión por el ámbito digital y 
+                la gestión administrativa. Desde temprana edad, he demostrado un interés 
+                constante en ampliar mis conocimientos y habilidades en diversas áreas,
+                con una orientación especial hacia la programación y la contabilidad. 
+                Mi objetivo es desarrollar un perfil integral,
+                combinando competencias tecnológicas y administrativas,
+                con la finalidad de adquirir experiencia y excelencia profesional 
+                a lo largo de mi trayectoria. Constantemente busco oportunidades para aprender,
+                innovar y perfeccionar mis habilidades en todos los ámbitos posibles, 
+                con una visión de crecimiento personal y profesional a futuro.</p>
+        </div>
+</div>
+<br><br><br><br><br>
+
+<div class="habilidades">
+        <div>
+            <h3>Habilidades</h3>
+            <ul>
+                <li>ANALISIS LOGICO</li>
+                <li>TRABAJO EN EQUIPO</li>
+                <li>ORGANIZACION</li>
+                <li>ORATORIA</li>
+                <li>RESOLUCION DE PROBLEMAS</li>
+                <li>DESARROLLO WEB</li>
+                <li>APRENDIZAJE RAPIDO</li>
+                <li>COMUNICACION ACERTIVA</li>
+                <li>AUTODIDACTA</li>
+                <li>TOMA DE DECISIONES</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Conocimientos</h3>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JAVASCRIPT</li>
+                <li>ADMINISTRACION</li>
+                <li>EXCEL</li>
+                <li>PROGRAMACION</li>
+                <li>COMUNICACION</li>
+                <li>CONTABILIDAD</li>
+                <li>INFORMATICA BASICA</li>
+                <li>INGLES BASICO</li>
+            </ul>
+        </div>
+</div>
+<br><br><br><br><br>
+
+<div class="general">
+    
+    <div class="contenido" id="proyectos">
+        <h1 class="titulo-proyectos">PROYECTOS</h1>
+       <button class="boton" onclick="verProyecto('proyecto1')">Proyecto 1</button>
+    <button class="boton" onclick="verProyecto('proyecto2')">Proyecto 2</button>
+    <button class="boton" onclick="verProyecto('proyecto3')">Proyecto 3</button>
+
+    <!-- Contenedor para mostrar la imagen y descripción -->
+    <div id="proyeto-info" >
+        <div id="proyecto1">
+            <img id="proyecto1-image" src="calculadora.png" alt="proyecto-calculadora" style="width: 750px; margin-top: 20px;">
+            <p id="description1">pagina web creada para calcular el peso de un ser humano en otro planeta</p>
+        </div>
+        
+        <div id="proyecto2" >
+            <img id="proyecto2-image" src="web_arturos.png" alt="proyecto-arturos" style="width: 750px; margin-top: 20px;">
+            <p id="description2">pagina web promocional creada en referencia a una marca famosa</p>
+        </div>
+        
+        <div id="proyecto3" >
+            <img id="proyecto3-image" src="web_mario.png" alt="Imagen de Eevee" style="width: 750px; margin-top: 20px;">
+            <p id="description3">pagina web basada en el juego de marios bros con funcionalidad</p>
+        </div>
+        
+    </div>
+
+
+    </div>
+
+    <div class="contenido" id="experiencia">
+       <h1 class="titulo-experiencia">Experiencia</h1>
+            <h2>ESPACIO EDUCA 2024-2025</h2>
+                <p>Curso basico de programacion web (HTML, CSS, JAVASCRIPT)</p>
+            <h2>ZONA MIRANDA(PASANTIAS) 2024-2025</h2>
+            <p>Asistente administrativo y adjunto contable </p>
+                </div>
+
+
+</div>
+    <footer id="contacto">
+<div class="contacto">
+    <h2>CORREO ELECTRONICO</h2> 
+    <p>erikcrodriguez13@gmail.com</p>
+</div>
+<div class="contacto">
+    <h2>NUMERO TELEFONICO</h2>
+    <p>+58 412-585-0480</p>
+</div>
+<div class="contacto">
+    <h2>FACEBOOK</h2>
+     <p>Erikc rodriguez</p>
+</div>
+
+    </footer>
+
+
+<script>                
+        ocultar();
+    
+
+        // Funcion para ocultar la informacion de los pokemon
+        function ocultar() {
+            document.getElementById('proyecto1').style.display = 'none';
+            document.getElementById('proyecto2').style.display = 'none';
+            document.getElementById('proyecto3').style.display = 'none';
+        }
+
+        // Función para mostrar la información del Pokémon
+        function verProyecto(pokemonName) {            
+            // Ocultar todos los Pokémon
+            ocultar();
+            // Mostrar el Pokémon seleccionado
+            document.getElementById(pokemonName).style.display = 'block';
+        }
+    </script>
+</body>
+
+</html>

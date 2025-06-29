@@ -1,0 +1,175 @@
+
+html{
+  padding-top: 100px;
+    font-family: monospace;
+    background: linear-gradient(80deg, #1E234D 0%, #404856 100%);
+    align-items: center;
+    text-align: center;
+    padding-bottom: 0;
+}
+body{
+    align-items: center;
+    justify-content: center;
+}
+header{
+ position: absolute;
+   background-color: #B2B2B2;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+
+}
+
+.opciones{
+    display: flex;
+    justify-content: space-around;
+    width: 120dvh;
+    height: 6dvh;
+   font-size: 20px;
+    text-align: center;
+    align-items: center;
+
+}
+
+li:hover{
+    color: #B2B2B2;
+    background-color: #282b3a18;
+    font-weight: 600;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.cara{
+    color: #E1E1E1;
+    display: flex;
+    font-size: 30px;
+    margin: 10px;
+}
+
+p{
+    font-size: 18px;
+   border: 5px double #1E234D;
+   border-radius: 10px;
+   padding: 10px;
+   color: #1E234D;
+   background-color: #B2B2B2;
+}
+.presentacion{
+    font-size: 55px;
+    color: #E1E1E1;
+    font-weight: 800;
+}
+.presentacionH2{
+    color: #E1E1E1;
+    font-size: 40px;
+}
+.yo{
+    width: 250px;
+    border: 10px solid #B2B2B2;
+    border-radius: 100px;
+    margin-right: 20px;
+}
+
+.habilidades{
+    display: flex;
+    justify-content: space-around;
+}
+h3{
+    font-size: 40px; 
+    color: #E1E1E1;
+    justify-content: center;
+}
+li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #B2B2B2;
+    border: 1px solid #B2B2B2;
+    border-radius: 20px;
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+    color: #282B3A;
+    width: 300px;
+    margin: 10px;
+    border: 5px ridge #282B3A  ;
+}
+
+
+
+.general{
+    width: 1000px;
+    margin-left: 100px;
+}
+.contenido{
+  
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  
+}
+
+#proyectos{
+    align-content: center;
+    position: relative;
+    margin-left: 200px;
+    background-color: #404856;
+    justify-content: center;
+    text-align: center;
+    border: 5px dashed #B2B2B2  ;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.titulo-proyectos{
+     color: #E1E1E1;
+    font-size: 40px;
+}
+
+.boton{
+    color: #B2B2B2;
+    background-color: #282B3A;
+    width: 200px;
+    border-color: #B2B2B2;
+    border-radius: 20px;
+}
+
+.imagen-proyecto{
+    width: 900px;
+    border-radius: 25px;
+    margin-bottom: 30px;
+}
+
+.descripcion-proyecto{
+    color: white;
+    font-size: 30px;
+}
+
+.titulo-experiencia{
+      color: white;
+    font-size: 40px;
+}
+
+#experiencia{
+    border: #B2B2B2;
+    color: #E1E1E1;
+    border-radius: 10px;
+    margin: 50px;
+    margin-left: 250px;
+}
+
+footer{
+     background: linear-gradient(90deg, #B2B2B2 0%,#d1d1d1  100%);
+  padding: 50px 0  ;
+  margin: 0 0 0 0;
+  display: flex;
+  justify-content: space-around;
+  color: #282B3A;
+  
+}
